@@ -107,13 +107,13 @@ export default function LandingPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <Field
                   label="Client / Organisation"
-                  placeholder="e.g. Fortescue"
+                  placeholder="e.g. Acme Corporation"
                   value={clientName}
                   onChange={setClientName}
                 />
                 <Field
                   label="Industry"
-                  placeholder="e.g. Mining & Resources"
+                  placeholder="e.g. Financial Services"
                   value={industry}
                   onChange={setIndustry}
                 />
